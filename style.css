@@ -8422,3 +8422,54 @@ td.hljs-ln-numbers {
 .aplayer-lrc {
     pointer-events: none
 }
+
+#banner_bolang_bg_1 {
+    width: auto;
+    height: 85px;
+    background: url("images/wave1.png") repeat-x;
+    _filter: alpha(opacity=80);
+    position: absolute;
+    bottom: 0px;
+    width: 400%;
+    left: -236px;
+    z-index: 997;
+}
+
+@media (max-width: 860px) {
+   #banner_bolang_bg_1 {
+    width: auto;
+    height: 60px;
+    background: url("images/wave1.png") repeat-x;
+    _filter: alpha(opacity=80);
+    position: absolute;
+    bottom: 0px;
+    width: 400%;
+    left: -236px;
+    z-index: 997;
+}
+}
+
+#banner_bolang_bg_2 {
+    width: auto;
+    height: 100px;
+    background: url("images/wave2.png") repeat-x;
+    _filter: alpha(opacity=80);
+    position: absolute;
+    bottom: 0px;
+    width: 400%;
+    left: 0px;
+    z-index: 996;
+}
+@media (max-width: 860px) {
+   #banner_bolang_bg_2 {
+    width: auto;
+    height: 70px;
+    background: url("images/wave2.png") repeat-x;
+    _filter: alpha(opacity=80);
+    position: absolute;
+    bottom: 0px;
+    width: 400%;
+    left: 0px;
+    z-index: 996;
+}
+}
