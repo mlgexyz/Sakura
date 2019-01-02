@@ -769,6 +769,13 @@ function optionsframework_options() {
 		'std' => '0',
 		'type' => 'checkbox');
     
+	$options[] = array(
+		'name' => __('开启波浪动画', 'options_framework_theme'),
+		'desc' => __('默认关闭，勾选开启', 'options_framework_theme'),
+		'id' => 'bannerwave',
+		'std' => '0',
+		'type' => 'checkbox');	
+
     $options[] = array(
 		'name' => __('开启NProgress加载进度条', 'options_framework_theme'),
 		'desc' => __('默认不开启，勾选开启', 'options_framework_theme'),
