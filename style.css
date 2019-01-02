@@ -8676,7 +8676,7 @@ td.hljs-ln-numbers {
     bottom: 0px;
     width: 400%;
     left: -236px;
-    z-index: 997;
+    z-index: 5;
 }
 
 @media (max-width: 860px) {
@@ -8689,7 +8689,7 @@ td.hljs-ln-numbers {
     bottom: 0px;
     width: 400%;
     left: -236px;
-    z-index: 997;
+    z-index: 5;
 }
 }
 
@@ -8702,7 +8702,7 @@ td.hljs-ln-numbers {
     bottom: 0px;
     width: 400%;
     left: 0px;
-    z-index: 996;
+    z-index: 4;
 }
 @media (max-width: 860px) {
    #banner_bolang_bg_2 {
@@ -8714,6 +8714,6 @@ td.hljs-ln-numbers {
     bottom: 0px;
     width: 400%;
     left: 0px;
-    z-index: 996;
+    z-index: 4;
 }
 }
