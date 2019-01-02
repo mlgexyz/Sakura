@@ -93,17 +93,17 @@ window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
 				<div class="site-top">
 					<div class="site-branding">
 						<?php if (akina_option('akina_logo')){ ?>
-						<div class="site-title">
+						<div id="tiaodan" class="site-logo">
 							<a href="<?php bloginfo('url');?>" ><img src="<?php echo akina_option('akina_logo'); ?>"></a>
 						</div>
 						<?php }else{ ?>
-						<span class="site-title">
+						<div id="tiaodan" class="site-title">
 							<span class="logolink serif">
 								<a href="<?php bloginfo('url');?>">
 									<span class="site-name"><?php echo akina_option('site_name', ''); ?></span>
 								</a>
 							</span>
-						</span>	
+						</div>	
 						<?php } ?><!-- logo end -->
 					</div><!-- .site-branding -->
 					<?php header_user_menu(); if(akina_option('top_search') == 'yes') { ?>
